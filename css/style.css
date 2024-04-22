@@ -1,0 +1,358 @@
+*
+{
+padding:0;
+margin:0;
+text-decoration: none !important;
+}
+main
+{
+    background-color: #ccc;
+
+}
+ .navbar
+ {
+    position: fixed !important;
+    width: 100%;
+z-index: 10;
+ }
+ 
+.header ul
+{
+position: absolute;
+top:0;
+right:3%;
+}
+.header ul li
+{
+    display: inline-block;
+    margin: 22px 1px;
+}
+.header p
+{
+    margin: 13px 17px;
+}
+.banner-img
+{
+    width:100%;
+    height:50vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),#07ff) !important;
+    background-image:url(../img/femme4-1.jpg);
+    background-size:cover;
+    background-position: top;
+}
+ .navbar-nav li a
+ {
+    color:#ffe !important;
+    transition:0.3s ;
+ }
+ .navbar-nav li a:hover
+ {
+    color:#f2b !important;
+    font-weight:bolder;
+
+ }
+ .navbar-nav .dropdown 
+ {
+    background-color:#f2b;
+    height:100%;
+    border-radius:18px;
+ }
+ .navbar-nav .dropdown a:hover
+ {
+     color:white !important;
+ }
+.dropdown-menu li .dropdown-item
+{
+    color:#f2b !important;
+}
+.dropdown-menu li .dropdown-item:hover
+{
+    background-color:#f2b;
+    height:100%;
+    border-radius:18px;
+}
+#section
+{
+    padding: 70px !important;
+   
+}
+.banner-text
+{
+    width:80%;
+    color:#fff;
+    margin:10% ;
+}
+.banner-text h1
+{
+font-weight: 800;
+letter-spacing: 2px;
+font-size:65px;
+}
+.banner-text p
+{
+font-size:16px;
+}
+.col-lg-12 h2
+{
+    text-align: center;
+    margin:3%;
+    padding-bottom:1%;
+    border-bottom:2px solid #f2b;
+}
+.well
+{
+    background-color:#ffe !important;
+    border-radius:10px;
+    
+     
+}
+.form-control
+{
+border:none !important;
+box-shadow: none !important;
+border-radius: unset !important;
+}
+.service
+{
+align-items: center;
+
+}
+#Service .col-lg-4 {
+text-align: center;
+padding:14px;
+border-radius: 20px;
+transition: 0.7s;
+}
+#Service .col-lg-4 h3
+{
+ 
+text-align:center !important;
+}
+#Service .col-lg-4 img
+{
+    text-align:center !important;
+}
+#Service .col-lg-4 p
+{
+    text-align:center !important;
+}
+#Service .col-lg-4:hover
+{
+background-color: #f2b;
+color:#ffe;
+
+}
+
+.col-lg-12 .spacing
+{
+background-color: #ffe;
+border-radius:30px;
+border-bottom:1px solid #f2b;
+}
+.col-lg-12 .spacing p
+{
+    /* position:relative;
+padding:3px;
+left:10%; */
+padding: 25px 50px;
+}
+.row .col-lg-6 
+{
+     
+   margin: 4px 0;
+}
+.col-lg-12 .spacing .reseau-sociaux span
+{
+  
+letter-spacing: 3px;
+font-style: oblique;
+}
+.col-lg-12 .spacing .reseau-sociaux 
+{
+ /* padding: 0 200px; */
+}
+.col-lg-12 .spacing .reseau-sociaux li
+{
+    display:inline-block;
+    margin:3px;
+}
+.footer
+{
+    padding:50px ;
+    
+}
+ 
+.footer .copy
+{
+    text-align:center;
+    padding-bottom:2%;
+    border-bottom:2px dotted #f2b;
+}
+#Apropos,#newsletter,#ESP
+{
+    text-align:center;
+    color:#ffe;
+   
+}
+#Apropos span,#newsletter span,#ESP span
+{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#Apropos,#newsletter,#ESP:hover
+{
+        background-color: transparent !important;
+        color:#ffe !important;
+}
+.btn-perso
+{
+    width: 50%;
+    border-style:hidden;
+    background-image:linear-gradient(360deg,#f2a,#f09);
+    background-position: center;
+    color:#ffe;
+    padding-left:7px;
+    border-radius:6px;
+    outline: none;
+    transition: 0.7s;
+}
+.btn-perso-log
+{
+    width: auto;
+    background-image:linear-gradient(120deg,#f2a,#0bc);
+    background-position: right;
+    /* background-position: center; */
+    color:#ffe;
+    padding-left:7px;
+    border:none !important;
+    border-radius:6px;
+    outline: none;
+    transition: 0.7s;
+}
+.btn-perso-log:hover
+{
+    background-image:linear-gradient(130deg,#0bc,#f2a);
+    background-position: left;
+}
+.btn-perso:hover
+{
+    background-image:linear-gradient(120deg,#f2a,#ea9);
+    background-position: center;
+box-shadow:none;
+background-position: right;
+color:#ffe !important;
+}
+.btn-perso:active
+{
+    color:#ffe !important;
+    box-shadow:none;
+}
+
+.txbox
+{
+    border: none;
+    background-color: transparent;
+    border-bottom:2px solid #f2a !important;
+    box-shadow: none;
+    outline:none;
+
+}
+.txt-pembe
+
+{
+color:#ffe !important;
+}
+
+
+{
+    
+}
+
+.esp
+{
+text-decoration:none;
+background-color:rgb(14, 111, 223);
+padding:10px;
+color:rgb(250, 250, 240);
+border:1px solid rgb(252, 252, 248);
+transition:0.5s ease-in;
+}
+.esp:hover
+{
+    background-color:rgba(2, 72, 119, 0.795);
+    color:rgb(255, 255, 250);
+}
+.esp:active
+{
+    color:rgb(250, 250, 239);
+    background-color:#f5f;
+}
+.carousel-item .col-lg-4 
+{
+    text-align: center;
+}
+.carousel-item .col-lg-4 .img-item1
+{
+width:100%;
+height: 75%;
+}
+.carousel-item .col-lg-4 .img-tem
+{
+width:100px;
+height:100px;
+border-radius: 50%;
+}
+.carousel-item .col-lg-4 span
+{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+/* -----login------ */
+.logpr
+{
+width:100%;
+height:100vh;
+background-color: #ccc;
+}
+.logpr .logcor
+{
+padding:9% 0;
+}
+#Login
+{
+    height:100vh;
+}
+#Login #bannier
+{
+    background-image: url(../img/masque5.jpg);
+    height:100vh;
+    
+}
+#Login #bannier1
+{
+     padding:83px 10px;
+    height:100vh;
+    background-color: #ccc !important;
+}
+#Login #bannier1 .txbox
+{
+    width:100%;
+}
+#Login #bannier1 .txbox:focus
+{
+    background-color: transparent !important;
+}
+/* -----------Profil----------- */
+#Profil .row
+{
+height:100vh;
+}
+#Profil-menu
+{
+position: fixed;
+height:100%;
+}
+#Profil .row .col-10 
+{
+    padding-left:28 0px;
+}
