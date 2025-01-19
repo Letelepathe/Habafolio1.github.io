@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 
 import Home from './Haba/Acceuil'
 import Navbar from './components/navbar/Navbars'
+import BootstrapBundle from './components/magic/BootstrapBundle'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
        <Navbar/>
        <Home/>
+       <BootstrapBundle/>
     </>
   )
 }

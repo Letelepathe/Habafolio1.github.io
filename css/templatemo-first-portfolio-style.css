@@ -1200,6 +1200,9 @@ strong {
     border-bottom: 1px solid var(--border-color);
     border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
   }
+  .hero-title {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1207,9 +1210,15 @@ strong {
     margin-right: 12px;
     margin-left: 12px;
   }
+  .hero-title {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  h2[class="text-white"]{
+    font-size: small;
+  }
   h1 {
     font-size: 40px;
   }
@@ -1250,6 +1259,9 @@ strong {
 
   .hero-image {
     min-width: inherit;
+  }
+  .hero-title {
+    font-size: 24px;
   }
 }
 
