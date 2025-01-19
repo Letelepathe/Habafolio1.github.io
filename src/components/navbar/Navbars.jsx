@@ -1,11 +1,7 @@
 export default function Navbar(){
     return(
         <>
-        <section className="preloader">
-            <div className="spinner">
-                <span className="spinner-rotate"></span>    
-            </div>
-        </section>
+       
 
         <nav className="navbar navbar-expand-lg">
             <div className="container">
