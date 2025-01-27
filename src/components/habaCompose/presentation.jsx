@@ -4,6 +4,7 @@ import restall from "../magic/apparEffect";
 export default function Presentation  (params)  {
     const CQH = useRef();
     const Charisme = useRef();
+    const el = useRef();
     // const lect = useRef();
     // const trou = useRef();
     useEffect(() => {
@@ -11,6 +12,13 @@ export default function Presentation  (params)  {
         restall(Charisme, 'appar-left');
         // restall(lect, 'appar-right');
         // restall(trou, 'appar');
+        let typed=new Typed(el.current,{
+            strings:["Developpeur Nextjs","Développeur fullstack","Développeur Nextjs","Développeur Android","Ingenieur Info IT"],
+            typedSpeed:50,
+            backSpeed:40,
+            loop:true
+        });
+        // typed.destroy();
     }, []);
   return (
     <section className="hero d-flex justify-content-center align-items-center" id="section_1">
@@ -25,7 +33,7 @@ export default function Presentation  (params)  {
                                     <h1 className="hero-title ms-3 mb-0">Bonjour, Je suis Habacuc!</h1>
                                 </div>
 
-                                <h2 className="mb-4 haba_type" > Developpeur full stack</h2>
+                                <h2 className="mb-4 haba_type" ref={el}> Développeur fullstack </h2>
                                 <p className="mb-4" ><a className="custom-btn btn custom-link" href="https://wa.me/+243996834353">Commençons</a></p>
                             </div>
                         </div>
