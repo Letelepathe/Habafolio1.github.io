@@ -9,26 +9,26 @@ export default function Apropos  (params)  {
         restall(Charisme, 'appar-left');
     }, []);
     return (
-        <section class="about section-padding" id="section_2">
-        <div class="container">
-            <div class="row">
+        <section className="about section-padding" id="section_2">
+        <div className="container">
+            <div className="row">
 
-                <div class="col-lg-6 col-12" ref={CQH}>
-                    <img src="images/Hba1.png" class="about-image img-fluid" alt=""/>
+                <div className="col-lg-6 col-12" ref={CQH}>
+                    <img src="images/Hba1.png" className="about-image img-fluid" alt=""/>
                 </div>
 
-                <div class="col-lg-6 col-12 mt-5 mt-lg-0" ref={Charisme}>
-                    <div class="about-thumb">
+                <div className="col-lg-6 col-12 mt-5 mt-lg-0" ref={Charisme}>
+                    <div className="about-thumb">
 
-                        <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
-                            <h2 class="text-white me-4 mb-0">A propos</h2>
+                        <div className="section-title-wrap d-flex justify-content-end align-items-center mb-4">
+                            <h2 className="text-white me-4 mb-0">A propos</h2>
 
-                            <img src="images/Hba1.png" class="avatar-image img-fluid" alt=""/>
+                            <img src="images/Hba1.png" className="avatar-image img-fluid" alt=""/>
                         </div>
 
-                        <h3 class="pt-2 mb-3">A propos de Habacuc</h3>
+                        <h3 className="pt-2 mb-3">A propos de Habacuc</h3>
 
-                        <p>L'informatique en générale et le developpement des applications en particulier est une passion pour Moi
+                        <p className="text-justify">L'informatique en générale et le developpement des applications en particulier est une passion pour Moi
                     depuis quelques années. je fais de cette passion une réel motivation pour rendre service à la société mais aussi 
                     contribuer à l'innovation et à aider les entreprises à atteindre leur objectif ainsi augmenter votre productivité dans votre 
                     secteur d'activité</p>

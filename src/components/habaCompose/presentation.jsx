@@ -13,26 +13,26 @@ export default function Presentation  (params)  {
         // restall(trou, 'appar');
     }, []);
   return (
-    <section class="hero d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
+    <section className="hero d-flex justify-content-center align-items-center" id="section_1">
+                <div className="container">
+                    <div className="row">
 
-                        <div class="col-lg-7 col-12">
-                            <div class="hero-text" ref={CQH}>
-                                <div class="hero-title-wrap d-flex align-items-center mb-4" >
-                                    <img src="images/Hba1.png" class="avatar-image avatar-image-large img-fluid" alt=""/>
+                        <div className="col-lg-7 col-12">
+                            <div className="hero-text" ref={CQH}>
+                                <div className="hero-title-wrap d-flex align-items-center mb-4" >
+                                    <img src="images/Hba1.png" className="avatar-image avatar-image-large img-fluid" alt=""/>
 
-                                    <h1 class="hero-title ms-3 mb-0">Bonjour, Je suis Habacuc!</h1>
+                                    <h1 className="hero-title ms-3 mb-0">Bonjour, Je suis Habacuc!</h1>
                                 </div>
 
-                                <h2 class="mb-4 haba_type" > Developpeur full stack</h2>
-                                <p class="mb-4" ><a class="custom-btn btn custom-link" href="https://wa.me/+243996834353">Commençons</a></p>
+                                <h2 className="mb-4 haba_type" > Developpeur full stack</h2>
+                                <p className="mb-4" ><a className="custom-btn btn custom-link" href="https://wa.me/+243996834353">Commençons</a></p>
                             </div>
                         </div>
 
-                        <div class="col-lg-5 col-12 position-relative" style={{zIndex:10000}} ref={Charisme}>
-                            <div class="hero-image-wrap"></div>
-                            <img src="images/femmeRouge.png" class="hero-image img-fluid" alt=""/>
+                        <div className="col-lg-5 col-12 position-relative" style={{zIndex:10000}} ref={Charisme}>
+                            <div className="hero-image-wrap"></div>
+                            <img src="images/femmeRouge.png" className="hero-image img-fluid" alt=""/>
                         </div>
 
                     </div>
